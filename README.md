@@ -82,3 +82,15 @@ There are several customizable parameters that you may configure in this mode:
 - `jsonnet-use-smie` enables SMIE-provided indentation.
 - `jsonnet-indent-level` changes the number of spaces used to indent
   Jsonnet code.
+
+## Buffer display
+
+The potential buffers that the mode creates are:
+
+* `*jsonnet output*`
+* `*jsonnetfmt stderr*`
+* `*jsonnetfmt stdout*`
+
+If you require special customisation of their display, you ca either
+use the `display-buffer-alist` as described in a previous section or
+investigate the options provided in your distribution of GNU Emacs.
